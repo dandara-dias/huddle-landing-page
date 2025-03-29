@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,4 +17,46 @@ header {
 
 header img {
   width: 220px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 4.5%;
+}
+
+section  {
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(257, 69%, 91%);
+  font-size: 40px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(258, 17%, 89%);
+}
+
+button {
+  border-radius: 50px;
+  width: 40%;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(258, 17%, 89%);
+  cursor: pointer;
 }
