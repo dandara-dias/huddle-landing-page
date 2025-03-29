@@ -60,3 +60,29 @@ button:hover {
   color: hsl(258, 17%, 89%);
   cursor: pointer;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5%;
+  gap: 1%;
+  padding: 20px;
+  font-size: 25px;
+  transition: color 1s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+ion-icon {
+  border: 1px solid hsl(258, 17%, 89%);
+  color: hsl(258, 17%, 89%);
+  border-radius: 50px;
+  padding: 10px;
+}
+
+ion-icon:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
