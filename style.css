@@ -9,6 +9,8 @@ body {
   height: 100vh;
   background-color: hsl(257, 40%, 49%);
   background-image: url('images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -25,7 +27,7 @@ main {
   margin: 4.5%;
 }
 
-section  {
+article  {
   padding: 35px 30px;
   display: flex;
   flex-direction: column;
@@ -71,8 +73,14 @@ footer {
   transition: color 1s ease;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
+  padding: 10px;
 }
 
 ion-icon {
